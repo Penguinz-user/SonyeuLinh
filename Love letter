@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <style>
+        body {
+            background-color: #f9f3f3;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff6f61;
+            font-size: 3em;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .heart {
+            font-size: 5em;
+            color: #ff6f61;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #ff6f61;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #e65b50;
+        }
+    </style>
+</head>
+<body>
+    <h1>I'm Sorry</h1>
+    <p>I made a mistake, and I deeply regret it. You mean the world to me, and I hope you can forgive me.</p>
+    <div class="heart">❤️</div>
+    <a href="mailto:yourgirlfriend@example.com" class="button">Let’s Talk</a>
+</body>
+</html>
